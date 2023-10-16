@@ -2,7 +2,7 @@
   "name": "cra-webcomponent",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sanoojzc.github.io/cra-webcomponents/",
+  "homepage": "/cra-webcomponents/",
   "dependencies": {
     "@r2wc/react-to-web-component": "^2.0.3",
     "@testing-library/jest-dom": "^5.17.0",
