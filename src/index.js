@@ -4,7 +4,7 @@ import "./index.css"
 import App from "./App"
 
 const WebApp = r2wc(App, {
-  shadow: "open",
+  // shadow: "open",
   props: {
     name: "string",
     description: "string",
