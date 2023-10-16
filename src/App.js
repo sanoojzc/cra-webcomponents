@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/cra-webcomponents">
         <Routes>
           <Route exact path="/" element={<h1><a href="/page1">Home Page</a></h1>} />
           <Route
