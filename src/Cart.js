@@ -7,7 +7,7 @@ const Cart = () => {
   const state = useSelector((state) => state);
   const dispatch = useDispatch();
   return (
-    <div className="cart" style={{ backgroundColor: "red" }}>
+    <div className="cart">
       <h2>Number of items in Cart: {state.numOfItems}</h2>
       <button
         onClick={() => {
