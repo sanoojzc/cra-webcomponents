@@ -5,9 +5,11 @@ import Cart from "./Cart";
 
 function App() {
   return (
+    
     <Provider store={store}>
       <Cart />
     </Provider>
+  
   );
 }
 
