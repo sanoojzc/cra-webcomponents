@@ -14,7 +14,7 @@ const Cart = () => {
           dispatch(addItem());
         }}
       >
-        <img src={logo} />
+        <img src={`https://sanoojzc.github.io/${logo}`} />
         Add Item to Cart
       </button>
       <button
